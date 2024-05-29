@@ -1,0 +1,8 @@
+name: "hello"
+description: "Hello Wildcats Action"
+
+runs:
+  using: composite
+  steps:
+  - run: go run hello.go
+    shell: bash
